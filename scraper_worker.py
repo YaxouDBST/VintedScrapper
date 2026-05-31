@@ -198,14 +198,29 @@ class VintedScraperWorker:
                 condition = item.get("status") or "N/A"
                 url = item.get("url", "#")
                 
-                # Apply size filter if configured (e.g. ['S', 'M'])
-                allowed_sizes = self.config.get("allowed_sizes", [])
+                # Apply size filter if configured (criteria override or global fallback)
+                allowed_sizes = criteria.get("allowed_sizes")
+                if allowed_sizes is None:
+                    allowed_sizes = self.config.get("allowed_sizes", [])
+                
                 if allowed_sizes:
                     clean_size = size.strip().upper() if size else ""
                     allowed_sizes_upper = [s.strip().upper() for s in allowed_sizes]
                     if clean_size not in allowed_sizes_upper:
                         logger.debug(f"Skipping item ID {item_id} due to size mismatch: size='{size}' (allowed: {allowed_sizes})")
                         continue
+                
+                # Apply price limit filter if configured (per-criteria or global fallback)
+                max_price = criteria.get("max_price") or self.config.get("max_price")
+                if max_price is not None:
+                    price_obj = item.get("price") or {}
+                    try:
+                        amount = float(price_obj.get("amount", 0))
+                        if amount > float(max_price):
+                            logger.debug(f"Skipping item ID {item_id} due to price limit: {amount} (limit: {max_price})")
+                            continue
+                    except (ValueError, TypeError):
+                        pass
                 
                 price_obj = item.get("price") or {}
                 price_str = f"{price_obj.get('amount', '0')} {price_obj.get('currency_code', 'EUR')}"

@@ -1,7 +1,8 @@
 {
   "vinted_domain": "https://www.vinted.fr",
-  "discord_webhook_url": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+  "discord_webhook_url": "https://discordapp.com/api/webhooks/1510697284340285762/Dcxp-etsf7eJUbs2EsUJSCsQgvkxCt0ZWE_ZCVSyZ1VWo7HkI0Tr5VrYn5mdFNXyEDVy",
   "allowed_sizes": ["S", "M"],
+  "max_price": 75.0,
   "request_limits": {
     "rotation_frequency_min": 25,
     "rotation_frequency_max": 30
@@ -20,23 +21,26 @@
       }
     },
     {
-      "name": "Arte Antwerp - Jackets & Coats",
+      "name": "Arte Antwerp - Graphic Tees & T-Shirts",
+      "max_price": 25.0,
       "params": {
-        "search_text": "arte antwerp veste jacket",
+        "search_text": "arte antwerp t-shirt tee tshirt",
         "order": "newest_first",
         "per_page": 20
       }
     },
     {
-      "name": "Ralph Lauren - Zip Hoodies & Sweats",
+      "name": "Arte Antwerp - Summer Shorts",
+      "max_price": 30.0,
       "params": {
-        "search_text": "ralph lauren zip sweat capuche",
+        "search_text": "arte antwerp short",
         "order": "newest_first",
         "per_page": 20
       }
     },
     {
       "name": "Ralph Lauren - Cable Knit Pulls",
+      "max_price": 50.0,
       "params": {
         "search_text": "ralph lauren torsade cable knit",
         "order": "newest_first",
@@ -44,15 +48,73 @@
       }
     },
     {
-      "name": "Stussy - Hoodies & Sweats",
+      "name": "Ralph Lauren - Classic Polo Shirts & Tees",
+      "max_price": 22.0,
       "params": {
-        "search_text": "stussy hoodie sweat",
+        "search_text": "ralph lauren polo t-shirt tee",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Ralph Lauren - Linen Summer Shirts",
+      "max_price": 30.0,
+      "params": {
+        "search_text": "ralph lauren chemise lin linen shirt",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Ralph Lauren - Summer Shorts & Swimwear",
+      "max_price": 28.0,
+      "params": {
+        "search_text": "ralph lauren short maillot bain swim",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Ralph Lauren - Iconic Logo Caps",
+      "max_price": 18.0,
+      "allowed_sizes": [],
+      "params": {
+        "search_text": "ralph lauren casquette cap hat",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Stussy - Graphic Tees & T-Shirts",
+      "max_price": 25.0,
+      "params": {
+        "search_text": "stussy t-shirt tee tshirt",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Stussy - Summer Shorts & Water Shorts",
+      "max_price": 35.0,
+      "params": {
+        "search_text": "stussy short beach water mesh",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Stussy - Caps & Bucket Hats",
+      "max_price": 20.0,
+      "allowed_sizes": [],
+      "params": {
+        "search_text": "stussy casquette cap bucket hat bob",
         "order": "newest_first",
         "per_page": 20
       }
     },
     {
       "name": "Carhartt WIP - Detroit & Active Jackets",
+      "max_price": 120.0,
       "params": {
         "search_text": "carhartt detroit active jacket veste",
         "order": "newest_first",
@@ -60,9 +122,29 @@
       }
     },
     {
-      "name": "Carhartt WIP - Double Knee Pants",
+      "name": "Carhartt WIP - Pocket Tees & T-Shirts",
+      "max_price": 20.0,
       "params": {
-        "search_text": "carhartt double knee pantalon",
+        "search_text": "carhartt pocket t-shirt tee tshirt",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Carhartt WIP - Single Knee & Cargo Shorts",
+      "max_price": 30.0,
+      "params": {
+        "search_text": "carhartt short cargo single knee work",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Carhartt WIP - Durable Canvas Caps",
+      "max_price": 18.0,
+      "allowed_sizes": [],
+      "params": {
+        "search_text": "carhartt casquette cap madison starter",
         "order": "newest_first",
         "per_page": 20
       }

@@ -177,3 +177,658 @@
 2026-05-31 19:47:51,086 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053915796.
 2026-05-31 19:47:51,087 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte': 16 new items dispatched, 4 duplicates skipped.
 2026-05-31 19:47:51,088 [INFO] VintedBot.Worker - 😴 Sleeping for 70.94 seconds to break predictable behavioral tracking...
+2026-05-31 20:58:34,810 [INFO] VintedBot.Main - ==================================================
+2026-05-31 20:58:34,810 [INFO] VintedBot.Main - 👑 Vinted Stealth Monitoring Bot Started 👑
+2026-05-31 20:58:34,810 [INFO] VintedBot.Main - ==================================================
+2026-05-31 20:58:34,810 [INFO] VintedBot.Worker - Configuration loaded. Next token rotation scheduled in 25 successful requests.
+2026-05-31 20:58:34,810 [INFO] VintedBot.Database - Database initialized successfully.
+2026-05-31 20:58:34,810 [INFO] VintedBot.Worker - 🚀 Starting stealth Vinted monitoring bot...
+2026-05-31 20:58:34,810 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 20:58:34,810 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 20:58:44,019 [INFO] VintedBot.SessionManager - Session initialized successfully. All essential cookies extracted.
+2026-05-31 20:58:44,072 [INFO] VintedBot.SessionManager - Heavy browser closed. Session initialization Phase 1 complete.
+2026-05-31 20:58:44,083 [INFO] VintedBot.Worker - 🔄 Session successfully rotated. Instantiating fresh tls-client session...
+2026-05-31 20:58:44,084 [INFO] VintedBot.Worker - 🔄 Token rotation complete. Reset request count. Next rotation threshold: 25 requests.
+2026-05-31 20:58:44,084 [INFO] VintedBot.Worker - 🚀 Monitoring bot started successfully. Entering scraper loop.
+2026-05-31 20:58:44,084 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #1 ---
+2026-05-31 20:58:44,084 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 20:58:44,592 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 0 new items dispatched, 19 duplicates skipped.
+2026-05-31 20:58:44,592 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Jackets & Coats' (Search Text: 'arte antwerp veste jacket')
+2026-05-31 20:58:45,009 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Leichte Jacke in Beige // Größe S - 35.0 EUR (S)
+2026-05-31 20:58:45,023 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,023 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Don’t Waste Culture] Nieuwe en mooie heren/jongens zomerse jack merk don't waste culture mt s - 70.0 EUR (S)
+2026-05-31 20:58:45,033 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,033 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Jackets & Coats': 2 new items dispatched, 18 duplicates skipped.
+2026-05-31 20:58:45,033 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Zip Hoodies & Sweats' (Search Text: 'ralph lauren zip sweat capuche')
+2026-05-31 20:58:45,611 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Pull camionneur Ralph Lauren demi-zip bleu marine - Taille S - 35.0 EUR (S)
+2026-05-31 20:58:45,623 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,624 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Veste Ralph Lauren grise - 32.0 EUR (M)
+2026-05-31 20:58:45,629 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,629 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] 🔵 Sweat à Capuche Polo Ralph Lauren Bleu Marine – Demi-Zip 🔵 - 24.9 EUR (M)
+2026-05-31 20:58:45,633 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,633 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Sweat Demi Zip Ralph Lauren Noir Pull Camionneur Taille S - 40.0 EUR (S)
+2026-05-31 20:58:45,638 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,639 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Pull Zip Ralph Lauren Bleu - 150.0 EUR (M)
+2026-05-31 20:58:45,643 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,644 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Zip RalphLauren taille S officiel - 45.0 EUR (S)
+2026-05-31 20:58:45,649 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,649 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Pull Ralph Lauren - 58.0 EUR (S)
+2026-05-31 20:58:45,655 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,655 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Zipp/ralph lauren/Taille:S - 33.0 EUR (S)
+2026-05-31 20:58:45,660 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,660 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Sweat Zip Ralph Lauren - 35.0 EUR (S)
+2026-05-31 20:58:45,668 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,668 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Zip Ralph Lauren - 65.0 EUR (S)
+2026-05-31 20:58:45,674 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:45,675 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Zip Hoodies & Sweats': 10 new items dispatched, 0 duplicates skipped.
+2026-05-31 20:58:45,675 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 20:58:46,133 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Pull Torsadé Tressé Cableknit Polo Ralph Lauren 100% Cachemire Vert Taille S Neuf Étiquette - 149.0 EUR (S)
+2026-05-31 20:58:46,147 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:46,148 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Pull torsadé Ralph Lauren blanc - 20.0 EUR (M)
+2026-05-31 20:58:46,154 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:46,154 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 2 new items dispatched, 0 duplicates skipped.
+2026-05-31 20:58:46,154 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Hoodies & Sweats' (Search Text: 'stussy hoodie sweat')
+2026-05-31 20:58:46,736 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Nike] Nike 99’s vintage nrg solo swoosh limited édition tn shox blue zip windbreaker - 16.62 EUR (M)
+2026-05-31 20:58:46,750 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:46,750 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stüssy World Tour Crest City Seal App Hoodie Rare Vintage – Taille S - 49.0 EUR (S)
+2026-05-31 20:58:46,755 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:46,755 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Nike] Nike 98's vintage nrg solo swoosh limited édition tn shox blue zip windbreaker - 11.72 EUR (S)
+2026-05-31 20:58:46,759 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:46,759 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Nike] Nike 00's vintage nrg solo swoosh limited édition tn shox black and grey  zip tracksuit - 14.66 EUR (M)
+2026-05-31 20:58:46,764 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:46,765 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Veste Stussy Zippé Rework - Taille M - Très bon état - 32.0 EUR (M)
+2026-05-31 20:58:46,770 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:46,771 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Hoodies & Sweats': 5 new items dispatched, 8 duplicates skipped.
+2026-05-31 20:58:46,771 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 20:58:47,252 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 18 duplicates skipped.
+2026-05-31 20:58:47,253 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Double Knee Pants' (Search Text: 'carhartt double knee pantalon')
+2026-05-31 20:58:47,863 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Carhartt - Double Knee Pant - Marron - 40.0 EUR (S)
+2026-05-31 20:58:47,877 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:47,877 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Double knee worker pant carhartt baggy loose fit wide leg neuf faded blue - M - 63.0 EUR (M)
+2026-05-31 20:58:47,882 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:47,882 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] 🌾 Short large Carhartt Lawton vert foncé 🌾 - 18.0 EUR (S)
+2026-05-31 20:58:47,886 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:58:47,886 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Double Knee Pants': 3 new items dispatched, 4 duplicates skipped.
+2026-05-31 20:58:47,887 [INFO] VintedBot.Worker - 😴 Sleeping for 48.55 seconds to break predictable behavioral tracking...
+2026-05-31 20:59:36,458 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #2 ---
+2026-05-31 20:59:36,458 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 20:59:36,929 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 20:59:36,929 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Jackets & Coats' (Search Text: 'arte antwerp veste jacket')
+2026-05-31 20:59:37,517 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Chocolate] Windbreaker Chocolate skate - 35.0 EUR (S)
+2026-05-31 20:59:37,531 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:59:37,531 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Arte zomerjas velours zwart M - 87.5 EUR (M)
+2026-05-31 20:59:37,537 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:59:37,537 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] veste Arte noire - 140.0 EUR (S)
+2026-05-31 20:59:37,541 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:59:37,542 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Bram's Fruit] Brams Fruit Overshirt Jasje maat S - 89.0 EUR (S)
+2026-05-31 20:59:37,546 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 20:59:37,547 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Jackets & Coats': 4 new items dispatched, 16 duplicates skipped.
+2026-05-31 20:59:37,547 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Zip Hoodies & Sweats' (Search Text: 'ralph lauren zip sweat capuche')
+2026-05-31 20:59:38,047 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Zip Hoodies & Sweats': 0 new items dispatched, 10 duplicates skipped.
+2026-05-31 20:59:38,048 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 20:59:38,450 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 2 duplicates skipped.
+2026-05-31 20:59:38,450 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Hoodies & Sweats' (Search Text: 'stussy hoodie sweat')
+2026-05-31 20:59:38,961 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Hoodies & Sweats': 0 new items dispatched, 13 duplicates skipped.
+2026-05-31 20:59:38,961 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 20:59:39,273 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 20:59:39,273 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Double Knee Pants' (Search Text: 'carhartt double knee pantalon')
+2026-05-31 20:59:39,880 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Double Knee Pants': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 20:59:39,880 [INFO] VintedBot.Worker - 😴 Sleeping for 81.82 seconds to break predictable behavioral tracking...
+2026-05-31 21:07:01,443 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:07:01,443 [INFO] VintedBot.Main - 👑 Vinted Stealth Monitoring Bot Started 👑
+2026-05-31 21:07:01,443 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:07:01,443 [INFO] VintedBot.Worker - Configuration loaded. Next token rotation scheduled in 29 successful requests.
+2026-05-31 21:07:01,443 [INFO] VintedBot.Database - Database initialized successfully.
+2026-05-31 21:07:01,443 [INFO] VintedBot.Worker - 🚀 Starting stealth Vinted monitoring bot...
+2026-05-31 21:07:01,443 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 21:07:01,443 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 21:07:41,379 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:07:41,379 [INFO] VintedBot.Main - 👑 Vinted Stealth Monitoring Bot Started 👑
+2026-05-31 21:07:41,379 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:07:41,379 [INFO] VintedBot.Worker - Configuration loaded. Next token rotation scheduled in 26 successful requests.
+2026-05-31 21:07:41,380 [INFO] VintedBot.Database - Database initialized successfully.
+2026-05-31 21:07:41,380 [INFO] VintedBot.Worker - 🚀 Starting stealth Vinted monitoring bot...
+2026-05-31 21:07:41,380 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 21:07:41,380 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 21:07:50,930 [INFO] VintedBot.SessionManager - Session initialized successfully. All essential cookies extracted.
+2026-05-31 21:07:51,004 [INFO] VintedBot.SessionManager - Heavy browser closed. Session initialization Phase 1 complete.
+2026-05-31 21:07:51,023 [INFO] VintedBot.Worker - 🔄 Session successfully rotated. Instantiating fresh tls-client session...
+2026-05-31 21:07:51,024 [INFO] VintedBot.Worker - 🔄 Token rotation complete. Reset request count. Next rotation threshold: 29 requests.
+2026-05-31 21:07:51,024 [INFO] VintedBot.Worker - 🚀 Monitoring bot started successfully. Entering scraper loop.
+2026-05-31 21:07:51,024 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #1 ---
+2026-05-31 21:07:51,024 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:07:51,432 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 0 new items dispatched, 17 duplicates skipped.
+2026-05-31 21:07:51,432 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Jackets & Coats' (Search Text: 'arte antwerp veste jacket')
+2026-05-31 21:07:51,807 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Jackets & Coats': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:07:51,807 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Zip Hoodies & Sweats' (Search Text: 'ralph lauren zip sweat capuche')
+2026-05-31 21:07:52,313 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Veste zippé Ralph Lauren blanche - 30.0 EUR (M)
+2026-05-31 21:07:52,711 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054883866.
+2026-05-31 21:07:52,712 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Gilet Ralph Lauren - 30.0 EUR (S)
+2026-05-31 21:07:53,322 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054877689.
+2026-05-31 21:07:53,323 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [RL] Gilet Ralph Lauren - 36.0 EUR (S)
+2026-05-31 21:07:53,630 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054864812.
+2026-05-31 21:07:53,631 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Veste Ralph Lauren Stretch Slim Fit - 80.0 EUR (M)
+2026-05-31 21:07:53,999 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054796323.
+2026-05-31 21:07:53,999 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Zip Hoodies & Sweats': 4 new items dispatched, 9 duplicates skipped.
+2026-05-31 21:07:53,999 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:07:54,372 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Torsadé Ralph Lauren bleu pull ras de cou coton sweat col rond cable knit 496#U - 39.9 EUR (S)
+2026-05-31 21:07:54,654 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054830317.
+2026-05-31 21:07:54,655 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 1 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:07:54,656 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Hoodies & Sweats' (Search Text: 'stussy hoodie sweat')
+2026-05-31 21:07:55,048 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] pull stussy - 35.0 EUR (M)
+2026-05-31 21:07:55,325 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054886587.
+2026-05-31 21:07:55,325 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Hoodies & Sweats': 1 new items dispatched, 12 duplicates skipped.
+2026-05-31 21:07:55,326 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:07:55,799 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:07:55,799 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Double Knee Pants' (Search Text: 'carhartt double knee pantalon')
+2026-05-31 21:07:56,534 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Carhartt | Double-Knee Pant | Rust Orange 🟤🟠 - 30.0 EUR (M)
+2026-05-31 21:07:56,902 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9051384557.
+2026-05-31 21:07:56,902 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Double Knee Pants': 1 new items dispatched, 12 duplicates skipped.
+2026-05-31 21:07:56,903 [INFO] VintedBot.Worker - 😴 Sleeping for 74.86 seconds to break predictable behavioral tracking...
+2026-05-31 21:16:36,876 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:16:36,877 [INFO] VintedBot.Main - 👑 Vinted Stealth Monitoring Bot Started 👑
+2026-05-31 21:16:36,877 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:16:36,877 [INFO] VintedBot.Worker - Configuration loaded. Next token rotation scheduled in 28 successful requests.
+2026-05-31 21:16:36,877 [INFO] VintedBot.Database - Database initialized successfully.
+2026-05-31 21:16:36,877 [INFO] VintedBot.Worker - 🚀 Starting stealth Vinted monitoring bot...
+2026-05-31 21:16:36,877 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 21:16:36,877 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 21:16:42,519 [INFO] VintedBot.SessionManager - Session initialized successfully. All essential cookies extracted.
+2026-05-31 21:16:42,589 [INFO] VintedBot.SessionManager - Heavy browser closed. Session initialization Phase 1 complete.
+2026-05-31 21:16:42,598 [INFO] VintedBot.Worker - 🔄 Session successfully rotated. Instantiating fresh tls-client session...
+2026-05-31 21:16:42,599 [INFO] VintedBot.Worker - 🔄 Token rotation complete. Reset request count. Next rotation threshold: 25 requests.
+2026-05-31 21:16:42,599 [INFO] VintedBot.Worker - 🚀 Monitoring bot started successfully. Entering scraper loop.
+2026-05-31 21:16:42,599 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #1 ---
+2026-05-31 21:16:42,599 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:16:43,047 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 0 new items dispatched, 16 duplicates skipped.
+2026-05-31 21:16:43,048 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Jackets & Coats' (Search Text: 'arte antwerp veste jacket')
+2026-05-31 21:16:43,457 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Jackets & Coats': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:16:43,457 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Zip Hoodies & Sweats' (Search Text: 'ralph lauren zip sweat capuche')
+2026-05-31 21:16:43,976 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Polo /  Pull Style  Rugby  Polo Ralph  Lauren - 33.99 EUR (M)
+2026-05-31 21:16:43,989 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 21:16:43,990 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Zip Hoodies & Sweats': 1 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:16:43,990 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:16:44,484 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 3 duplicates skipped.
+2026-05-31 21:16:44,484 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Hoodies & Sweats' (Search Text: 'stussy hoodie sweat')
+2026-05-31 21:16:45,048 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [jpt classics] Sweat Crewneck Vintage Université USA - Vanier College - Gris - Taille S - 16.5 EUR (S)
+2026-05-31 21:16:45,062 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 21:16:45,062 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Gildan] Sweat à Capuche Hoodie Vintage Université USA - Hanes Basketball - Gildan - Noir - Taille S - 16.5 EUR (S)
+2026-05-31 21:16:45,068 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 21:16:45,068 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Gildan] Sweat à Capuche Hoodie Vintage Université USA - Outdoor School - Vert - Taille S - 14.5 EUR (S)
+2026-05-31 21:16:45,074 [WARNING] VintedBot.Notifier - Discord webhook URL is not configured. Skipping notification.
+2026-05-31 21:16:45,074 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Hoodies & Sweats': 3 new items dispatched, 8 duplicates skipped.
+2026-05-31 21:16:45,074 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:16:45,412 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:16:45,412 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Double Knee Pants' (Search Text: 'carhartt double knee pantalon')
+2026-05-31 21:16:45,922 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Double Knee Pants': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:16:45,922 [INFO] VintedBot.Worker - 😴 Sleeping for 50.74 seconds to break predictable behavioral tracking...
+2026-05-31 21:17:50,152 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:17:50,152 [INFO] VintedBot.Main - 👑 Vinted Stealth Monitoring Bot Started 👑
+2026-05-31 21:17:50,152 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:17:50,152 [INFO] VintedBot.Worker - Configuration loaded. Next token rotation scheduled in 28 successful requests.
+2026-05-31 21:17:50,152 [INFO] VintedBot.Database - Database initialized successfully.
+2026-05-31 21:17:50,152 [INFO] VintedBot.Worker - 🚀 Starting stealth Vinted monitoring bot...
+2026-05-31 21:17:50,152 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 21:17:50,152 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 21:17:57,183 [INFO] VintedBot.SessionManager - Session initialized successfully. All essential cookies extracted.
+2026-05-31 21:17:57,252 [INFO] VintedBot.SessionManager - Heavy browser closed. Session initialization Phase 1 complete.
+2026-05-31 21:17:57,269 [INFO] VintedBot.Worker - 🔄 Session successfully rotated. Instantiating fresh tls-client session...
+2026-05-31 21:17:57,270 [INFO] VintedBot.Worker - 🔄 Token rotation complete. Reset request count. Next rotation threshold: 25 requests.
+2026-05-31 21:17:57,270 [INFO] VintedBot.Worker - 🚀 Monitoring bot started successfully. Entering scraper loop.
+2026-05-31 21:17:57,270 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #1 ---
+2026-05-31 21:17:57,270 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:17:57,834 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [geen merk] Lekkere hoodie - 25.0 EUR (M)
+2026-05-31 21:17:58,304 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9019189484.
+2026-05-31 21:17:58,305 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 1 new items dispatched, 17 duplicates skipped.
+2026-05-31 21:17:58,305 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Jackets & Coats' (Search Text: 'arte antwerp veste jacket')
+2026-05-31 21:17:58,733 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Jackets & Coats': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:17:58,733 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Zip Hoodies & Sweats' (Search Text: 'ralph lauren zip sweat capuche')
+2026-05-31 21:17:59,251 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Zip Hoodies & Sweats': 0 new items dispatched, 8 duplicates skipped.
+2026-05-31 21:17:59,252 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:17:59,754 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Pull Torsadé Polo Ralph Lauren Bleu marine Taille S Cable Knit Crewneck Sweater Pullover D001 - 35.0 EUR (S)
+2026-05-31 21:18:00,141 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054997455.
+2026-05-31 21:18:00,142 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 1 new items dispatched, 3 duplicates skipped.
+2026-05-31 21:18:00,142 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Hoodies & Sweats' (Search Text: 'stussy hoodie sweat')
+2026-05-31 21:18:00,678 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Hoodies & Sweats': 0 new items dispatched, 10 duplicates skipped.
+2026-05-31 21:18:00,678 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:18:01,085 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:18:01,085 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Double Knee Pants' (Search Text: 'carhartt double knee pantalon')
+2026-05-31 21:18:01,592 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Double Knee Pants': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:18:01,592 [INFO] VintedBot.Worker - 😴 Sleeping for 55.99 seconds to break predictable behavioral tracking...
+2026-05-31 21:18:57,606 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #2 ---
+2026-05-31 21:18:57,606 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:18:58,020 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 0 new items dispatched, 16 duplicates skipped.
+2026-05-31 21:18:58,020 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Jackets & Coats' (Search Text: 'arte antwerp veste jacket')
+2026-05-31 21:18:58,424 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Jackets & Coats': 0 new items dispatched, 18 duplicates skipped.
+2026-05-31 21:18:58,424 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Zip Hoodies & Sweats' (Search Text: 'ralph lauren zip sweat capuche')
+2026-05-31 21:18:58,849 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Zip Hoodies & Sweats': 0 new items dispatched, 8 duplicates skipped.
+2026-05-31 21:18:58,849 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:18:59,258 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 4 duplicates skipped.
+2026-05-31 21:18:59,258 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Hoodies & Sweats' (Search Text: 'stussy hoodie sweat')
+2026-05-31 21:18:59,857 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Hoodies & Sweats': 0 new items dispatched, 9 duplicates skipped.
+2026-05-31 21:18:59,857 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:19:00,473 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 18 duplicates skipped.
+2026-05-31 21:19:00,473 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Double Knee Pants' (Search Text: 'carhartt double knee pantalon')
+2026-05-31 21:19:01,085 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Double Knee Pants': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:19:01,086 [INFO] VintedBot.Worker - 😴 Sleeping for 83.80 seconds to break predictable behavioral tracking...
+2026-05-31 21:20:24,967 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #3 ---
+2026-05-31 21:20:24,968 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:20:25,466 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 0 new items dispatched, 19 duplicates skipped.
+2026-05-31 21:20:25,466 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Jackets & Coats' (Search Text: 'arte antwerp veste jacket')
+2026-05-31 21:20:25,871 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Jackets & Coats': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:20:25,872 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Zip Hoodies & Sweats' (Search Text: 'ralph lauren zip sweat capuche')
+2026-05-31 21:20:26,535 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Sweat zippé Ralph Lauren - 40.0 EUR (S)
+2026-05-31 21:20:27,073 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9055020596.
+2026-05-31 21:20:27,074 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Zip Hoodies & Sweats': 1 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:20:27,074 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:20:27,606 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 4 duplicates skipped.
+2026-05-31 21:20:27,606 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Hoodies & Sweats' (Search Text: 'stussy hoodie sweat')
+2026-05-31 21:20:28,130 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Hoodies & Sweats': 0 new items dispatched, 9 duplicates skipped.
+2026-05-31 21:20:28,130 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:20:28,545 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 18 duplicates skipped.
+2026-05-31 21:20:28,545 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Double Knee Pants' (Search Text: 'carhartt double knee pantalon')
+2026-05-31 21:20:29,266 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Double Knee Pants': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:20:29,266 [INFO] VintedBot.Worker - 😴 Sleeping for 54.01 seconds to break predictable behavioral tracking...
+2026-05-31 21:21:23,335 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #4 ---
+2026-05-31 21:21:23,336 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:21:23,834 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 0 new items dispatched, 16 duplicates skipped.
+2026-05-31 21:21:23,834 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Jackets & Coats' (Search Text: 'arte antwerp veste jacket')
+2026-05-31 21:21:24,439 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Jackets & Coats': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:21:24,439 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Zip Hoodies & Sweats' (Search Text: 'ralph lauren zip sweat capuche')
+2026-05-31 21:21:24,965 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Zip Hoodies & Sweats': 0 new items dispatched, 8 duplicates skipped.
+2026-05-31 21:21:24,966 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:21:25,468 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 4 duplicates skipped.
+2026-05-31 21:21:25,469 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Hoodies & Sweats' (Search Text: 'stussy hoodie sweat')
+2026-05-31 21:21:25,469 [INFO] VintedBot.Worker - 🔄 Request limit (25) reached. Triggering proactive token rotation.
+2026-05-31 21:21:25,469 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 21:21:25,469 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 21:21:33,712 [INFO] VintedBot.SessionManager - Session initialized successfully. All essential cookies extracted.
+2026-05-31 21:21:33,750 [INFO] VintedBot.SessionManager - Heavy browser closed. Session initialization Phase 1 complete.
+2026-05-31 21:21:33,765 [INFO] VintedBot.Worker - 🔄 Session successfully rotated. Instantiating fresh tls-client session...
+2026-05-31 21:21:33,765 [INFO] VintedBot.Worker - 🔄 Token rotation complete. Reset request count. Next rotation threshold: 29 requests.
+2026-05-31 21:21:34,384 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Hoodies & Sweats': 0 new items dispatched, 9 duplicates skipped.
+2026-05-31 21:21:34,384 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:21:34,704 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:21:34,705 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Double Knee Pants' (Search Text: 'carhartt double knee pantalon')
+2026-05-31 21:21:35,408 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Double Knee Pants': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:21:35,408 [INFO] VintedBot.Worker - 😴 Sleeping for 55.21 seconds to break predictable behavioral tracking...
+2026-05-31 21:26:12,125 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:26:12,126 [INFO] VintedBot.Main - 👑 Vinted Stealth Monitoring Bot Started 👑
+2026-05-31 21:26:12,126 [INFO] VintedBot.Main - ==================================================
+2026-05-31 21:26:12,126 [INFO] VintedBot.Worker - Configuration loaded. Next token rotation scheduled in 28 successful requests.
+2026-05-31 21:26:12,126 [INFO] VintedBot.Database - Database initialized successfully.
+2026-05-31 21:26:12,126 [INFO] VintedBot.Worker - 🚀 Starting stealth Vinted monitoring bot...
+2026-05-31 21:26:12,126 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 21:26:12,126 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 21:26:17,779 [INFO] VintedBot.SessionManager - Session initialized successfully. All essential cookies extracted.
+2026-05-31 21:26:17,843 [INFO] VintedBot.SessionManager - Heavy browser closed. Session initialization Phase 1 complete.
+2026-05-31 21:26:17,850 [INFO] VintedBot.Worker - 🔄 Session successfully rotated. Instantiating fresh tls-client session...
+2026-05-31 21:26:17,850 [INFO] VintedBot.Worker - 🔄 Token rotation complete. Reset request count. Next rotation threshold: 25 requests.
+2026-05-31 21:26:17,850 [INFO] VintedBot.Worker - 🚀 Monitoring bot started successfully. Entering scraper loop.
+2026-05-31 21:26:17,850 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #1 ---
+2026-05-31 21:26:17,850 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:26:18,437 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Arte antwerp hoodie - 35.0 EUR (M)
+2026-05-31 21:26:18,825 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8973356274.
+2026-05-31 21:26:18,826 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Zwarte hoodie - 40.0 EUR (M)
+2026-05-31 21:26:19,338 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8956973955.
+2026-05-31 21:26:19,339 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Hoodie Arte - 50.0 EUR (S)
+2026-05-31 21:26:21,079 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8946139716.
+2026-05-31 21:26:21,080 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Arte Antwerp Zip Hoodie – Taille M - 75.0 EUR (M)
+2026-05-31 21:26:21,594 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8944455965.
+2026-05-31 21:26:21,594 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 4 new items dispatched, 14 duplicates skipped.
+2026-05-31 21:26:21,594 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Graphic Tees & T-Shirts' (Search Text: 'arte antwerp t-shirt tee tshirt')
+2026-05-31 21:26:22,030 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Arte antwerp t shirt zwart - 20.0 EUR (S)
+2026-05-31 21:26:22,309 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9027521777.
+2026-05-31 21:26:22,310 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Graphic Tees & T-Shirts': 1 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:22,310 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Summer Shorts' (Search Text: 'arte antwerp short')
+2026-05-31 21:26:22,660 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Arte Antwerp Short - 23.0 EUR (S)
+2026-05-31 21:26:23,229 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9036671239.
+2026-05-31 21:26:23,230 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Pure Path] Pure Path jogging shorts - 22.5 EUR (M)
+2026-05-31 21:26:23,472 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9032532021.
+2026-05-31 21:26:23,473 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Pleasures] Pleasures shorts - 15.0 EUR (S)
+2026-05-31 21:26:23,845 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9028569132.
+2026-05-31 21:26:23,845 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [DSRCV] Dsrcv shorts grey size s - 10.0 EUR (S)
+2026-05-31 21:26:24,251 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9024546542.
+2026-05-31 21:26:24,252 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [MCQ] MCQ Shorts Black🖤 - 22.0 EUR (M)
+2026-05-31 21:26:24,869 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9014125003.
+2026-05-31 21:26:24,870 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Summer Shorts': 5 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:26:24,870 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:26:25,355 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 3 duplicates skipped.
+2026-05-31 21:26:25,355 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Classic Polo Shirts & Tees' (Search Text: 'ralph lauren polo t-shirt tee')
+2026-05-31 21:26:25,808 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Tee-shirts Ralph Lauren - 20.0 EUR (S)
+2026-05-31 21:26:26,199 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054965712.
+2026-05-31 21:26:26,200 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Lot de 3 T-shirts : 1 Ralph Lauren Polo & 2 T-shirts Nike (TBE) - 14.9 EUR (S)
+2026-05-31 21:26:26,506 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054688828.
+2026-05-31 21:26:26,506 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Polo Ralph Lauren Big Pony Tee T-Shirt Sporty Regular Fit Mint Condition Number 3 Retro Style 🇺🇸 - 21.5 EUR (M)
+2026-05-31 21:26:26,819 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054666143.
+2026-05-31 21:26:26,820 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Tee shirt Polo Ralph Lauren - 15.0 EUR (S)
+2026-05-31 21:26:27,120 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054663435.
+2026-05-31 21:26:27,121 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Polo Ralph Lauren Black Tee - 14.0 EUR (M)
+2026-05-31 21:26:27,498 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054650345.
+2026-05-31 21:26:27,498 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Polo Ralph Lauren Classic Tee – Baby Blue - 15.0 EUR (M)
+2026-05-31 21:26:27,837 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054545410.
+2026-05-31 21:26:27,838 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Nike] Vintage Nike Double-face Mens White Navy Blue Reversible Mesh Basketball Jersey Training Tank Top - 9.0 EUR (M)
+2026-05-31 21:26:28,145 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054459054.
+2026-05-31 21:26:28,145 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Polo Ralph Lauren à rayures - 10.0 EUR (S)
+2026-05-31 21:26:28,552 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054455438.
+2026-05-31 21:26:28,553 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Classic Polo Shirts & Tees': 8 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:28,553 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Linen Summer Shirts' (Search Text: 'ralph lauren chemise lin linen shirt')
+2026-05-31 21:26:29,081 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Polo Ralph Lauren Men’s Solid Navy Blue Linen Shirt Size S - 22.0 EUR (S)
+2026-05-31 21:26:29,373 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9050235524.
+2026-05-31 21:26:29,375 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Bugatti] Chemise en lin noire style Ralph Lauren - 15.0 EUR (S)
+2026-05-31 21:26:29,904 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9046671853.
+2026-05-31 21:26:29,905 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Linen Summer Shirts': 2 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:29,905 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Summer Shorts & Swimwear' (Search Text: 'ralph lauren short maillot bain swim')
+2026-05-31 21:26:30,226 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Short de bain Polo Ralph Lauren Vintage Swim Short Taille S - 36/38FR - Beige Khaki Années 90s #27 - 25.0 EUR (S)
+2026-05-31 21:26:30,605 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9050642889.
+2026-05-31 21:26:30,605 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Summer Shorts & Swimwear': 1 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:30,606 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Iconic Logo Caps' (Search Text: 'ralph lauren casquette cap hat')
+2026-05-31 21:26:31,018 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Sinéquanone] Ensemble Jupe Froufrou Et Haut Manches Longues Sinéquanone Chic Bouton Perles Taille 42 Gris - 10.0 EUR (L / 40 / 12)
+2026-05-31 21:26:31,319 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9013835471.
+2026-05-31 21:26:31,321 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Polo Ralph Lauren Navy Cap Blue Classic Cotton Hat - 17.95 EUR (Taille unique)
+2026-05-31 21:26:31,934 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9039158040.
+2026-05-31 21:26:31,935 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [EQUIPE DE FRANCE] Écharpe Supporter Équipe de France EDF Collector Vintage 00´s - 5.0 EUR ()
+2026-05-31 21:26:32,240 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9007866407.
+2026-05-31 21:26:32,241 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Iconic Logo Caps': 3 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:32,241 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Graphic Tees & T-Shirts' (Search Text: 'stussy t-shirt tee tshirt')
+2026-05-31 21:26:32,710 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stüssy T-shirt - 15.0 EUR (S)
+2026-05-31 21:26:33,060 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9054233533.
+2026-05-31 21:26:33,060 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stussy Wizard Tshirt Zwart - 15.0 EUR (S)
+2026-05-31 21:26:33,777 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9044388397.
+2026-05-31 21:26:33,778 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Graphic Tees & T-Shirts': 2 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:33,778 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Summer Shorts & Water Shorts' (Search Text: 'stussy short beach water mesh')
+2026-05-31 21:26:34,193 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stüssy Shorts S - 24.0 EUR (S)
+2026-05-31 21:26:34,598 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9040909111.
+2026-05-31 21:26:34,599 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Short de bain Stüssy - 24.0 EUR (M)
+2026-05-31 21:26:35,006 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8981159535.
+2026-05-31 21:26:35,007 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Study Stock Water Short Mint Green - 15.0 EUR (S)
+2026-05-31 21:26:35,313 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8877186226.
+2026-05-31 21:26:35,314 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Summer Shorts & Water Shorts': 3 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:35,314 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Caps & Bucket Hats' (Search Text: 'stussy casquette cap bucket hat bob')
+2026-05-31 21:26:35,735 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Nike] Bob Nike vintage gris clair patch swoosh y2k 90s bucket hat - 14.0 EUR (Taille unique)
+2026-05-31 21:26:36,132 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9000419488.
+2026-05-31 21:26:36,133 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [boutique indépendante] Bob réversible thuglife - 8.0 EUR (Taille unique)
+2026-05-31 21:26:36,439 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8915780520.
+2026-05-31 21:26:36,440 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob stussy - 12.0 EUR (Taille unique)
+2026-05-31 21:26:36,746 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8849249925.
+2026-05-31 21:26:36,746 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stussy - 18.0 EUR (L)
+2026-05-31 21:26:36,990 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8817213707.
+2026-05-31 21:26:36,990 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob / chapeau Stussy Stüssy - 8.0 EUR (M)
+2026-05-31 21:26:37,365 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8808436858.
+2026-05-31 21:26:37,365 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stussy - 10.0 EUR (59)
+2026-05-31 21:26:37,670 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8779956898.
+2026-05-31 21:26:37,670 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob noir Stüssy - 15.0 EUR (L)
+2026-05-31 21:26:38,385 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8770811916.
+2026-05-31 21:26:38,386 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stüssy - 20.0 EUR (Taille unique)
+2026-05-31 21:26:38,797 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8649884597.
+2026-05-31 21:26:38,798 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Jungle hat Stussy vert S/M nylon léger logo brodé cordon de serrage - 18.0 EUR (S)
+2026-05-31 21:26:39,105 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8591922872.
+2026-05-31 21:26:39,106 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Bobe Adem et bilal (rare) - 16.0 EUR (Taille unique)
+2026-05-31 21:26:39,510 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8550802451.
+2026-05-31 21:26:39,511 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stüssy Floral - 17.5 EUR (Taille unique)
+2026-05-31 21:26:39,832 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8502603939.
+2026-05-31 21:26:39,833 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stussy - 8.0 EUR (S)
+2026-05-31 21:26:40,125 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 21:26:40,126 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob stüssy - 20.0 EUR (Taille unique)
+2026-05-31 21:26:40,743 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 21:26:40,745 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Caps & Bucket Hats': 13 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:40,745 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:26:41,275 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:26:41,275 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Pocket Tees & T-Shirts' (Search Text: 'carhartt pocket t-shirt tee tshirt')
+2026-05-31 21:26:41,679 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Carhartt Pocket Tee - 9.0 EUR (M)
+2026-05-31 21:26:41,969 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9049580085.
+2026-05-31 21:26:41,970 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Carhartt Tshirt Tee Vintage Y2K Navy Pocket Streetwear Sense | Size M - 20.0 EUR (M)
+2026-05-31 21:26:42,378 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 21:26:42,379 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Carhartt Maglietta manica corta - 12.0 EUR (M)
+2026-05-31 21:26:42,787 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 21:26:42,788 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Carhartt T-shirt Pocket Tee gris chiné Loose Fit - M - 13.0 EUR (M)
+2026-05-31 21:26:43,095 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9028276937.
+2026-05-31 21:26:43,096 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Polo Tshirt Carhartt manche courte bleu clair/bleu S     485 - 16.0 EUR (S)
+2026-05-31 21:26:43,430 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 21:26:43,431 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Tshirt Loose Fit Carhartt S manche courte rouge/corail  475 - 18.0 EUR (S)
+2026-05-31 21:26:43,812 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 21:26:43,813 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Carhartt Tshirt Tee Vintage Y2K Grey Pocket Streetwear Grunge  Sense | Size M - 15.0 EUR (M)
+2026-05-31 21:26:44,118 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 21:26:44,119 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Pocket Tees & T-Shirts': 7 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:44,119 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Single Knee & Cargo Shorts' (Search Text: 'carhartt short cargo single knee work')
+2026-05-31 21:26:44,545 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] short cargo - 20.0 EUR (S)
+2026-05-31 21:26:44,835 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9019348533.
+2026-05-31 21:26:44,836 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Single Knee & Cargo Shorts': 1 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:44,836 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Durable Canvas Caps' (Search Text: 'carhartt casquette cap madison starter')
+2026-05-31 21:26:45,146 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Durable Canvas Caps': 0 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:26:45,146 [INFO] VintedBot.Worker - 😴 Sleeping for 70.22 seconds to break predictable behavioral tracking...
+2026-05-31 21:27:55,434 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #2 ---
+2026-05-31 21:27:55,434 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:27:55,823 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Arte Harmon Heart Logo Hoodie - 60.0 EUR (M)
+2026-05-31 21:27:56,224 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8963685226.
+2026-05-31 21:27:56,224 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 1 new items dispatched, 18 duplicates skipped.
+2026-05-31 21:27:56,224 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Graphic Tees & T-Shirts' (Search Text: 'arte antwerp t-shirt tee tshirt')
+2026-05-31 21:27:56,631 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [arbor antwerp] Arbor Antwerp t-shirt - 25.0 EUR (M)
+2026-05-31 21:27:57,043 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9047337550.
+2026-05-31 21:27:57,044 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Graphic Tees & T-Shirts': 1 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:27:57,044 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Summer Shorts' (Search Text: 'arte antwerp short')
+2026-05-31 21:27:57,415 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Summer Shorts': 0 new items dispatched, 4 duplicates skipped.
+2026-05-31 21:27:57,416 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:27:57,772 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 3 duplicates skipped.
+2026-05-31 21:27:57,772 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Classic Polo Shirts & Tees' (Search Text: 'ralph lauren polo t-shirt tee')
+2026-05-31 21:27:58,276 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Classic Polo Shirts & Tees': 0 new items dispatched, 8 duplicates skipped.
+2026-05-31 21:27:58,276 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Linen Summer Shirts' (Search Text: 'ralph lauren chemise lin linen shirt')
+2026-05-31 21:27:58,685 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Linen Summer Shirts': 0 new items dispatched, 2 duplicates skipped.
+2026-05-31 21:27:58,685 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Summer Shorts & Swimwear' (Search Text: 'ralph lauren short maillot bain swim')
+2026-05-31 21:27:59,092 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Summer Shorts & Swimwear': 0 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:27:59,092 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Iconic Logo Caps' (Search Text: 'ralph lauren casquette cap hat')
+2026-05-31 21:27:59,426 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Iconic Logo Caps': 0 new items dispatched, 3 duplicates skipped.
+2026-05-31 21:27:59,426 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Graphic Tees & T-Shirts' (Search Text: 'stussy t-shirt tee tshirt')
+2026-05-31 21:27:59,809 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Graphic Tees & T-Shirts': 0 new items dispatched, 2 duplicates skipped.
+2026-05-31 21:27:59,809 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Summer Shorts & Water Shorts' (Search Text: 'stussy short beach water mesh')
+2026-05-31 21:28:00,220 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Pantaloncino Stussy - 35.0 EUR (M)
+2026-05-31 21:28:00,612 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9032135550.
+2026-05-31 21:28:00,613 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stussy korte broek - 20.0 EUR (M)
+2026-05-31 21:28:01,233 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8988873838.
+2026-05-31 21:28:01,234 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Shorts Stüssy - 25.0 EUR (S)
+2026-05-31 21:28:01,753 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8929233250.
+2026-05-31 21:28:01,753 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Pantaloncini Stüssy Sport Nylon Shorts - Logo Vintage Style - 12.0 EUR (M)
+2026-05-31 21:28:02,118 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8836395096.
+2026-05-31 21:28:02,119 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Summer Shorts & Water Shorts': 4 new items dispatched, 2 duplicates skipped.
+2026-05-31 21:28:02,119 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Caps & Bucket Hats' (Search Text: 'stussy casquette cap bucket hat bob')
+2026-05-31 21:28:02,119 [INFO] VintedBot.Worker - 🔄 Request limit (25) reached. Triggering proactive token rotation.
+2026-05-31 21:28:02,120 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 21:28:02,120 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 21:28:07,809 [INFO] VintedBot.SessionManager - Session initialized successfully. All essential cookies extracted.
+2026-05-31 21:28:07,848 [INFO] VintedBot.SessionManager - Heavy browser closed. Session initialization Phase 1 complete.
+2026-05-31 21:28:07,857 [INFO] VintedBot.Worker - 🔄 Session successfully rotated. Instantiating fresh tls-client session...
+2026-05-31 21:28:07,857 [INFO] VintedBot.Worker - 🔄 Token rotation complete. Reset request count. Next rotation threshold: 28 requests.
+2026-05-31 21:28:08,306 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Wrung] Chapeau homme été - 8.0 EUR (55)
+2026-05-31 21:28:08,805 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9031072588.
+2026-05-31 21:28:08,806 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stussy - 15.0 EUR (Taille unique)
+2026-05-31 21:28:09,393 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8874502114.
+2026-05-31 21:28:09,395 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stussy - 19.99 EUR (L)
+2026-05-31 21:28:09,726 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8636899015.
+2026-05-31 21:28:09,727 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stussy - 14.0 EUR (L)
+2026-05-31 21:28:09,981 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8418484073.
+2026-05-31 21:28:09,982 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Caps & Bucket Hats': 4 new items dispatched, 8 duplicates skipped.
+2026-05-31 21:28:09,982 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:28:10,372 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 19 duplicates skipped.
+2026-05-31 21:28:10,372 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Pocket Tees & T-Shirts' (Search Text: 'carhartt pocket t-shirt tee tshirt')
+2026-05-31 21:28:10,749 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Carhartt pocket t-shirt gris oscuro m size workwear - 18.99 EUR (M)
+2026-05-31 21:28:11,062 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9024611063.
+2026-05-31 21:28:11,063 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Pocket Tees & T-Shirts': 1 new items dispatched, 6 duplicates skipped.
+2026-05-31 21:28:11,063 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Single Knee & Cargo Shorts' (Search Text: 'carhartt short cargo single knee work')
+2026-05-31 21:28:11,587 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Single Knee & Cargo Shorts': 0 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:28:11,587 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Durable Canvas Caps' (Search Text: 'carhartt casquette cap madison starter')
+2026-05-31 21:28:11,982 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Durable Canvas Caps': 0 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:28:11,982 [INFO] VintedBot.Worker - 😴 Sleeping for 80.51 seconds to break predictable behavioral tracking...
+2026-05-31 21:29:32,570 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #3 ---
+2026-05-31 21:29:32,570 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:29:33,095 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Arte Antwerp Hoodie Grijs size M - 40.0 EUR (M)
+2026-05-31 21:29:33,593 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9031952162.
+2026-05-31 21:29:33,593 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Bram's Fruit] Bram's Fruit Hoodie Donkergroen Maat:M - 49.99 EUR (M)
+2026-05-31 21:29:33,906 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9022233311.
+2026-05-31 21:29:33,907 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 2 new items dispatched, 14 duplicates skipped.
+2026-05-31 21:29:33,907 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Graphic Tees & T-Shirts' (Search Text: 'arte antwerp t-shirt tee tshirt')
+2026-05-31 21:29:34,216 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Graphic Tees & T-Shirts': 0 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:29:34,217 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Summer Shorts' (Search Text: 'arte antwerp short')
+2026-05-31 21:29:34,531 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Howlin'] Short van Howlin - 22.0 EUR (S)
+2026-05-31 21:29:34,921 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9007019043.
+2026-05-31 21:29:34,922 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Summer Shorts': 1 new items dispatched, 4 duplicates skipped.
+2026-05-31 21:29:34,923 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:29:35,423 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 4 duplicates skipped.
+2026-05-31 21:29:35,424 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Classic Polo Shirts & Tees' (Search Text: 'ralph lauren polo t-shirt tee')
+2026-05-31 21:29:35,868 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Classic Polo Shirts & Tees': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:29:35,868 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Linen Summer Shirts' (Search Text: 'ralph lauren chemise lin linen shirt')
+2026-05-31 21:29:36,375 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Chemise Ralph Lauren manche courte rayé bleu et blanc taille m #8644 - 19.9 EUR (M)
+2026-05-31 21:29:36,714 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053017735.
+2026-05-31 21:29:36,715 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Chemise Ralph Lauren manche courte bleu claire légère taille S uni #8757 - 24.9 EUR (S)
+2026-05-31 21:29:37,071 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053015199.
+2026-05-31 21:29:37,072 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Linen Summer Shirts': 2 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:29:37,073 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Summer Shorts & Swimwear' (Search Text: 'ralph lauren short maillot bain swim')
+2026-05-31 21:29:37,497 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Summer Shorts & Swimwear': 0 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:29:37,497 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Iconic Logo Caps' (Search Text: 'ralph lauren casquette cap hat')
+2026-05-31 21:29:38,012 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Iconic Logo Caps': 0 new items dispatched, 3 duplicates skipped.
+2026-05-31 21:29:38,013 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Graphic Tees & T-Shirts' (Search Text: 'stussy t-shirt tee tshirt')
+2026-05-31 21:29:38,423 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stüssy Dice T-Shirt Verde Scuro Taglia S [A37] - 22.0 EUR (S)
+2026-05-31 21:29:38,875 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9049387217.
+2026-05-31 21:29:38,876 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stussy Black Tee - Size M - 15.0 EUR (M)
+2026-05-31 21:29:39,289 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9049063017.
+2026-05-31 21:29:39,290 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Graphic Tees & T-Shirts': 2 new items dispatched, 2 duplicates skipped.
+2026-05-31 21:29:39,290 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Summer Shorts & Water Shorts' (Search Text: 'stussy short beach water mesh')
+2026-05-31 21:29:39,961 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stüssy Stussy Brushed Beach Short Shorts Weiß Creme Größe S NEU - 30.0 EUR (S)
+2026-05-31 21:29:40,350 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9049118441.
+2026-05-31 21:29:40,350 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stüssy jorts / shorts lichtblauw roze logo maat M vintage streetwear - 20.0 EUR (M)
+2026-05-31 21:29:40,728 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9046182908.
+2026-05-31 21:29:40,728 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stüssy jorts / shorts lichtblauw oranje logo maat S vintage streetwear - 20.0 EUR (S)
+2026-05-31 21:29:41,102 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9034082702.
+2026-05-31 21:29:41,102 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stussy - 30.0 EUR (M)
+2026-05-31 21:29:41,487 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8919029453.
+2026-05-31 21:29:41,488 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Pantaloncino - 24.99 EUR (M)
+2026-05-31 21:29:41,794 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8829261345.
+2026-05-31 21:29:41,795 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Summer Shorts & Water Shorts': 5 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:29:41,795 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Caps & Bucket Hats' (Search Text: 'stussy casquette cap bucket hat bob')
+2026-05-31 21:29:42,208 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stüssy écossais rouge – Made in USA - 15.0 EUR (Taille unique)
+2026-05-31 21:29:42,810 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053039149.
+2026-05-31 21:29:42,811 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob noir taille L - 7.0 EUR (L)
+2026-05-31 21:29:43,216 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8945242831.
+2026-05-31 21:29:43,217 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [UNICA] Cappellino Pescatore - 5.0 EUR (Taille unique)
+2026-05-31 21:29:43,629 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8766477502.
+2026-05-31 21:29:43,629 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stüssy blanc – Logo brodé – Taille unique - 12.0 EUR (Taille unique)
+2026-05-31 21:29:44,038 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8708322527.
+2026-05-31 21:29:44,039 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Bob Stussy - 12.0 EUR (Taille unique)
+2026-05-31 21:29:44,514 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8609713987.
+2026-05-31 21:29:44,515 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Caps & Bucket Hats': 5 new items dispatched, 5 duplicates skipped.
+2026-05-31 21:29:44,515 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:29:44,993 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:29:44,993 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Pocket Tees & T-Shirts' (Search Text: 'carhartt pocket t-shirt tee tshirt')
+2026-05-31 21:29:45,432 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Carhartt] Vintage Carhartt tee outdoors style - 15.0 EUR (S)
+2026-05-31 21:29:45,775 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9035248705.
+2026-05-31 21:29:45,776 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Pocket Tees & T-Shirts': 1 new items dispatched, 6 duplicates skipped.
+2026-05-31 21:29:45,776 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Single Knee & Cargo Shorts' (Search Text: 'carhartt short cargo single knee work')
+2026-05-31 21:29:46,312 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Single Knee & Cargo Shorts': 0 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:29:46,312 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Durable Canvas Caps' (Search Text: 'carhartt casquette cap madison starter')
+2026-05-31 21:29:46,601 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Durable Canvas Caps': 0 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:29:46,601 [INFO] VintedBot.Worker - 😴 Sleeping for 55.52 seconds to break predictable behavioral tracking...
+2026-05-31 21:30:42,175 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #4 ---
+2026-05-31 21:30:42,175 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:30:42,624 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 0 new items dispatched, 18 duplicates skipped.
+2026-05-31 21:30:42,624 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Graphic Tees & T-Shirts' (Search Text: 'arte antwerp t-shirt tee tshirt')
+2026-05-31 21:30:43,031 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Graphic Tees & T-Shirts': 0 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:30:43,031 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Summer Shorts' (Search Text: 'arte antwerp short')
+2026-05-31 21:30:43,442 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Short arte bleu - 25.0 EUR (M)
+2026-05-31 21:30:43,734 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9051355321.
+2026-05-31 21:30:43,735 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] T-shirt Arte - 25.0 EUR (M)
+2026-05-31 21:30:44,132 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8997153592.
+2026-05-31 21:30:44,133 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Reternity] Reternity kurze Jogginghose - 25.0 EUR (M)
+2026-05-31 21:30:44,450 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8996022213.
+2026-05-31 21:30:44,451 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Summer Shorts': 3 new items dispatched, 2 duplicates skipped.
+2026-05-31 21:30:44,451 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:30:44,976 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 4 duplicates skipped.
+2026-05-31 21:30:44,976 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Classic Polo Shirts & Tees' (Search Text: 'ralph lauren polo t-shirt tee')
+2026-05-31 21:30:45,701 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Classic Polo Shirts & Tees': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:30:45,701 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Linen Summer Shirts' (Search Text: 'ralph lauren chemise lin linen shirt')
+2026-05-31 21:30:46,209 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Linen Summer Shirts': 0 new items dispatched, 2 duplicates skipped.
+2026-05-31 21:30:46,209 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Summer Shorts & Swimwear' (Search Text: 'ralph lauren short maillot bain swim')
+2026-05-31 21:30:46,723 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Summer Shorts & Swimwear': 0 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:30:46,723 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Iconic Logo Caps' (Search Text: 'ralph lauren casquette cap hat')
+2026-05-31 21:30:47,133 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Iconic Logo Caps': 0 new items dispatched, 3 duplicates skipped.
+2026-05-31 21:30:47,133 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Graphic Tees & T-Shirts' (Search Text: 'stussy t-shirt tee tshirt')
+2026-05-31 21:30:47,133 [INFO] VintedBot.Worker - 🔄 Request limit (28) reached. Triggering proactive token rotation.
+2026-05-31 21:30:47,133 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 21:30:47,133 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 21:30:53,153 [INFO] VintedBot.SessionManager - Session initialized successfully. All essential cookies extracted.
+2026-05-31 21:30:53,204 [INFO] VintedBot.SessionManager - Heavy browser closed. Session initialization Phase 1 complete.
+2026-05-31 21:30:53,222 [INFO] VintedBot.Worker - 🔄 Session successfully rotated. Instantiating fresh tls-client session...
+2026-05-31 21:30:53,223 [INFO] VintedBot.Worker - 🔄 Token rotation complete. Reset request count. Next rotation threshold: 29 requests.
+2026-05-31 21:30:53,786 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Black T-shirt - 25.0 EUR (M)
+2026-05-31 21:30:54,281 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9047855050.
+2026-05-31 21:30:54,282 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Graphic Tees & T-Shirts': 1 new items dispatched, 3 duplicates skipped.
+2026-05-31 21:30:54,283 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Summer Shorts & Water Shorts' (Search Text: 'stussy short beach water mesh')
+2026-05-31 21:30:55,024 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Pantaloncini bermuda Stüssy - 33.9 EUR (S)
+2026-05-31 21:30:55,510 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8978542404.
+2026-05-31 21:30:55,511 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [No Logo] Mesh Shorts with Neon Yellow Waistband - 10.0 EUR (S)
+2026-05-31 21:30:56,054 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8878366192.
+2026-05-31 21:30:56,054 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Summer Shorts & Water Shorts': 2 new items dispatched, 5 duplicates skipped.
+2026-05-31 21:30:56,054 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Caps & Bucket Hats' (Search Text: 'stussy casquette cap bucket hat bob')
+2026-05-31 21:30:56,715 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Stüssy • Bob • Noir - 13.0 EUR (Taille unique)
+2026-05-31 21:30:57,049 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9034514846.
+2026-05-31 21:30:57,050 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Fiebig] Anglerhut - 7.0 EUR (59)
+2026-05-31 21:30:57,322 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8900594870.
+2026-05-31 21:30:57,326 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Maui Wowie] Fischerhut - 3.0 EUR (Taille unique)
+2026-05-31 21:30:57,683 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8831398753.
+2026-05-31 21:30:57,683 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Wrung] Bob wrung - 10.0 EUR (Taille unique)
+2026-05-31 21:30:57,959 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8795358182.
+2026-05-31 21:30:57,959 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Caps & Bucket Hats': 4 new items dispatched, 9 duplicates skipped.
+2026-05-31 21:30:57,959 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:30:58,309 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 19 duplicates skipped.
+2026-05-31 21:30:58,309 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Pocket Tees & T-Shirts' (Search Text: 'carhartt pocket t-shirt tee tshirt')
+2026-05-31 21:30:58,807 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Pocket Tees & T-Shirts': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:30:58,807 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Single Knee & Cargo Shorts' (Search Text: 'carhartt short cargo single knee work')
+2026-05-31 21:30:59,320 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Single Knee & Cargo Shorts': 0 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:30:59,320 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Durable Canvas Caps' (Search Text: 'carhartt casquette cap madison starter')
+2026-05-31 21:30:59,712 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Durable Canvas Caps': 0 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:30:59,712 [INFO] VintedBot.Worker - 😴 Sleeping for 61.90 seconds to break predictable behavioral tracking...
+2026-05-31 21:32:01,665 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #5 ---
+2026-05-31 21:32:01,665 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Sweats & Hoodies' (Search Text: 'arte antwerp sweat hoodie pull')
+2026-05-31 21:32:02,148 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Sweats & Hoodies': 0 new items dispatched, 18 duplicates skipped.
+2026-05-31 21:32:02,148 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Graphic Tees & T-Shirts' (Search Text: 'arte antwerp t-shirt tee tshirt')
+2026-05-31 21:32:02,691 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Graphic Tees & T-Shirts': 0 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:32:02,691 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte Antwerp - Summer Shorts' (Search Text: 'arte antwerp short')
+2026-05-31 21:32:03,107 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte Antwerp - Summer Shorts': 0 new items dispatched, 5 duplicates skipped.
+2026-05-31 21:32:03,107 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Cable Knit Pulls' (Search Text: 'ralph lauren torsade cable knit')
+2026-05-31 21:32:03,630 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Cable Knit Pulls': 0 new items dispatched, 4 duplicates skipped.
+2026-05-31 21:32:03,630 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Classic Polo Shirts & Tees' (Search Text: 'ralph lauren polo t-shirt tee')
+2026-05-31 21:32:04,139 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Classic Polo Shirts & Tees': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:32:04,139 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Linen Summer Shirts' (Search Text: 'ralph lauren chemise lin linen shirt')
+2026-05-31 21:32:04,648 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Linen Summer Shirts': 0 new items dispatched, 2 duplicates skipped.
+2026-05-31 21:32:04,648 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Summer Shorts & Swimwear' (Search Text: 'ralph lauren short maillot bain swim')
+2026-05-31 21:32:05,153 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Summer Shorts & Swimwear': 0 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:32:05,153 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren - Iconic Logo Caps' (Search Text: 'ralph lauren casquette cap hat')
+2026-05-31 21:32:05,578 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren - Iconic Logo Caps': 0 new items dispatched, 3 duplicates skipped.
+2026-05-31 21:32:05,578 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Graphic Tees & T-Shirts' (Search Text: 'stussy t-shirt tee tshirt')
+2026-05-31 21:32:05,975 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Graphic Tees & T-Shirts': 0 new items dispatched, 4 duplicates skipped.
+2026-05-31 21:32:05,975 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Summer Shorts & Water Shorts' (Search Text: 'stussy short beach water mesh')
+2026-05-31 21:32:06,389 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Stüssy] Pantaloncino stussy taglia M uomo - 15.0 EUR (M)
+2026-05-31 21:32:06,885 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 8807107271.
+2026-05-31 21:32:06,886 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Summer Shorts & Water Shorts': 1 new items dispatched, 5 duplicates skipped.
+2026-05-31 21:32:06,886 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Stussy - Caps & Bucket Hats' (Search Text: 'stussy casquette cap bucket hat bob')
+2026-05-31 21:32:07,221 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Stussy - Caps & Bucket Hats': 0 new items dispatched, 12 duplicates skipped.
+2026-05-31 21:32:07,221 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Detroit & Active Jackets' (Search Text: 'carhartt detroit active jacket veste')
+2026-05-31 21:32:07,623 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Detroit & Active Jackets': 0 new items dispatched, 20 duplicates skipped.
+2026-05-31 21:32:07,623 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Pocket Tees & T-Shirts' (Search Text: 'carhartt pocket t-shirt tee tshirt')
+2026-05-31 21:32:08,123 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Pocket Tees & T-Shirts': 0 new items dispatched, 7 duplicates skipped.
+2026-05-31 21:32:08,123 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Single Knee & Cargo Shorts' (Search Text: 'carhartt short cargo single knee work')
+2026-05-31 21:32:08,850 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Single Knee & Cargo Shorts': 0 new items dispatched, 1 duplicates skipped.
+2026-05-31 21:32:08,850 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Carhartt WIP - Durable Canvas Caps' (Search Text: 'carhartt casquette cap madison starter')
+2026-05-31 21:32:09,141 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Carhartt WIP - Durable Canvas Caps': 0 new items dispatched, 0 duplicates skipped.
+2026-05-31 21:32:09,141 [INFO] VintedBot.Worker - 😴 Sleeping for 82.84 seconds to break predictable behavioral tracking...

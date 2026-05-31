@@ -1,0 +1,179 @@
+2026-05-31 19:45:53,376 [INFO] VintedBot.Main - ==================================================
+2026-05-31 19:45:53,376 [INFO] VintedBot.Main - 👑 Vinted Stealth Monitoring Bot Started 👑
+2026-05-31 19:45:53,376 [INFO] VintedBot.Main - ==================================================
+2026-05-31 19:45:53,376 [INFO] VintedBot.Worker - Configuration loaded. Next token rotation scheduled in 30 successful requests.
+2026-05-31 19:45:53,377 [INFO] VintedBot.Database - Database initialized successfully.
+2026-05-31 19:45:53,377 [INFO] VintedBot.Worker - 🚀 Starting stealth Vinted monitoring bot...
+2026-05-31 19:45:53,377 [INFO] VintedBot.Worker - 🔄 Initiating Token Rotation sequence...
+2026-05-31 19:45:53,377 [INFO] VintedBot.SessionManager - Initializing new stealth browser session for https://www.vinted.fr...
+2026-05-31 19:45:59,762 [INFO] VintedBot.SessionManager - Session initialized successfully. All essential cookies extracted.
+2026-05-31 19:45:59,808 [INFO] VintedBot.SessionManager - Heavy browser closed. Session initialization Phase 1 complete.
+2026-05-31 19:45:59,825 [INFO] VintedBot.Worker - 🔄 Session successfully rotated. Instantiating fresh tls-client session...
+2026-05-31 19:45:59,826 [INFO] VintedBot.Worker - 🔄 Token rotation complete. Reset request count. Next rotation threshold: 26 requests.
+2026-05-31 19:45:59,826 [INFO] VintedBot.Worker - 🚀 Monitoring bot started successfully. Entering scraper loop.
+2026-05-31 19:45:59,826 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #1 ---
+2026-05-31 19:45:59,826 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren' (Search Text: 'ralph lauren')
+2026-05-31 19:46:00,314 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Manche longue Ralph Lauren - 16.0 EUR (M)
+2026-05-31 19:46:01,021 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053736963.
+2026-05-31 19:46:01,022 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [RL Jeans Co. by Ralph Lauren] Bootcut Jeans Hose - 20.0 EUR (Autre)
+2026-05-31 19:46:01,621 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053911632.
+2026-05-31 19:46:01,622 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Ralph Lauren Kleid L mit Gürtel blau kariert - 65.0 EUR (L / 40 / 12)
+2026-05-31 19:46:01,891 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053911199.
+2026-05-31 19:46:01,892 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Polo Ralph Lauren - Ciel couleur - taille Xxl - 100% coton - 693 - 9.0 EUR (XXL)
+2026-05-31 19:46:02,440 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053910634.
+2026-05-31 19:46:02,441 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Ralph Lauren Harington Jacke M - 85.0 EUR (M)
+2026-05-31 19:46:02,839 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053910957.
+2026-05-31 19:46:02,839 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Ralph lauren Vintage blue Check Short sleeve Button up Shirt Size L 0950 - 24.95 EUR (L)
+2026-05-31 19:46:03,157 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053908918.
+2026-05-31 19:46:03,158 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Ralph Lauren polo - 2.0 EUR (6-9 mois / 68 cm)
+2026-05-31 19:46:03,496 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053909982.
+2026-05-31 19:46:03,497 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] 🤍 Ralph Lauren blanc – bon état 🐎 - 29.99 EUR (S)
+2026-05-31 19:46:03,979 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053910094.
+2026-05-31 19:46:03,979 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Polo Ralph Lauren blu navy originale taglia S unisex - 22.0 EUR (S / 36 / 8)
+2026-05-31 19:46:04,372 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9052804405.
+2026-05-31 19:46:04,373 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Ralph Lauren Skinny Polo Shirt Flieder/Lila | Gr. S - 25.0 EUR (S / 36 / 8)
+2026-05-31 19:46:04,629 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053909904.
+2026-05-31 19:46:04,630 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Polo rapaz Ralph Lauren - 5.0 EUR (6 ans / 116 cm)
+2026-05-31 19:46:05,050 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053909893.
+2026-05-31 19:46:05,051 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Polo Ralph Lauren - 9.0 EUR (24-36 mois / 92 cm)
+2026-05-31 19:46:05,414 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053909607.
+2026-05-31 19:46:05,415 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Vintage Ralph Lauren Knitsweater Sweater Grün M Y2K Retro       0307 - 45.0 EUR (M)
+2026-05-31 19:46:05,923 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053195444.
+2026-05-31 19:46:05,924 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Polo ralph lauren gr. 5 - 8.0 EUR (4 ans / 104 cm)
+2026-05-31 19:46:06,435 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053909647.
+2026-05-31 19:46:06,436 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Polo Vintage Ralph Lauren Noir et Rouge – Made in USA – Taille L - 28.0 EUR (L)
+2026-05-31 19:46:06,760 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053909125.
+2026-05-31 19:46:06,760 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Polo Ralph Lauren Harrington Jacke (Beige) - 85.0 EUR (XL)
+2026-05-31 19:46:07,253 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053908445.
+2026-05-31 19:46:07,254 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Vintage Polo Ralph Lauren Swim Trunks, size M - 17.0 EUR (M)
+2026-05-31 19:46:07,641 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053908874.
+2026-05-31 19:46:07,642 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] t shirt ralph lauren - 25.0 EUR (S)
+2026-05-31 19:46:07,969 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053908907.
+2026-05-31 19:46:07,970 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Ralph Lauren vest - 42.0 EUR (M)
+2026-05-31 19:46:08,314 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053908671.
+2026-05-31 19:46:08,315 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Polo Ralph Lauren - 60.0 EUR (S)
+2026-05-31 19:46:08,685 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053908457.
+2026-05-31 19:46:08,686 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren': 20 new items dispatched, 0 duplicates skipped.
+2026-05-31 19:46:08,686 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte' (Search Text: 'arte')
+2026-05-31 19:46:09,381 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [415 - perline come da fotografia mm. 16x13] 415 - perline come da fotografia mm. 16x13 - 1.0 EUR (N/A)
+2026-05-31 19:46:09,813 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053912784.
+2026-05-31 19:46:09,814 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [laines du Nord] Filato lana - 3.0 EUR (N/A)
+2026-05-31 19:46:10,326 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053912328.
+2026-05-31 19:46:10,326 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Real Madrid] Edredón Real Madrid - 7.0 EUR (N/A)
+2026-05-31 19:46:10,670 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053910964.
+2026-05-31 19:46:10,671 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [cucinella filati] Lotto 5 Gomitoli Vintage Cucinella Filati - 17.0 EUR (N/A)
+2026-05-31 19:46:11,043 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053889155.
+2026-05-31 19:46:11,044 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] Arte Antwerp - Pleated Pants (Black) - 65.0 EUR (L)
+2026-05-31 19:46:11,349 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053910371.
+2026-05-31 19:46:11,350 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Retal plumeti - 6.0 EUR (N/A)
+2026-05-31 19:46:11,659 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053910347.
+2026-05-31 19:46:11,660 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Aurora] Aurora 98 - 2 Penne - 99.0 EUR (N/A)
+2026-05-31 19:46:11,965 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053908414.
+2026-05-31 19:46:11,965 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [si marca] Lote de laña - 5.0 EUR (N/A)
+2026-05-31 19:46:12,287 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053906144.
+2026-05-31 19:46:12,288 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Hilos de macrame - 25.0 EUR (N/A)
+2026-05-31 19:46:12,695 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053479931.
+2026-05-31 19:46:12,695 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] T-shirt Arte - 32.0 EUR (S)
+2026-05-31 19:46:13,103 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053903048.
+2026-05-31 19:46:13,103 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Mhome] Busta profumata per armadi  lavanda con appendino in carta made in Italy, nuovo con cartellino - 4.0 EUR (N/A)
+2026-05-31 19:46:13,397 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053902347.
+2026-05-31 19:46:13,398 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Women'secret] Bolsa de tela para pijama tipo "patchwork" - 2.0 EUR (N/A)
+2026-05-31 19:46:13,704 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053902439.
+2026-05-31 19:46:13,705 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Oito Séculos de Arte Portuguesa História e Espírito de Reynaldo dos Santos. Fascículo espécime - 8.5 EUR (N/A)
+2026-05-31 19:46:14,117 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053901081.
+2026-05-31 19:46:14,118 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [pas de marque] Elegantes botones e - 1.77 EUR (N/A)
+2026-05-31 19:46:14,423 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053901441.
+2026-05-31 19:46:14,424 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Star Wars] Mandalorian Crochet - 20.0 EUR (N/A)
+2026-05-31 19:46:14,831 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053901435.
+2026-05-31 19:46:14,831 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Patricio Romano en una botella - 15.0 EUR (N/A)
+2026-05-31 19:46:15,243 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053900704.
+2026-05-31 19:46:15,243 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [413 - perline come da fotografia] 413 - perline come da fotografia - 1.0 EUR (N/A)
+2026-05-31 19:46:15,547 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053899763.
+2026-05-31 19:46:15,547 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Punto de cruz - 28.0 EUR (N/A)
+2026-05-31 19:46:15,966 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 19:46:15,967 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Stampa Veronese Arte Cinese Gualino 1926 - 10.0 EUR (N/A)
+2026-05-31 19:46:16,240 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 19:46:16,241 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Mineralogie] Eliotropio o Bloodstone, Africa. - 4.5 EUR (N/A)
+2026-05-31 19:46:16,674 [ERROR] VintedBot.Notifier - Discord API Rate Limited! Webhook requests are being blocked.
+2026-05-31 19:46:16,675 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte': 20 new items dispatched, 0 duplicates skipped.
+2026-05-31 19:46:16,675 [INFO] VintedBot.Worker - 😴 Sleeping for 80.25 seconds to break predictable behavioral tracking...
+2026-05-31 19:47:36,928 [INFO] VintedBot.Worker - 
+--- Monitoring Loop Iteration #2 ---
+2026-05-31 19:47:36,928 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Ralph Lauren' (Search Text: 'ralph lauren')
+2026-05-31 19:47:37,381 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] T-shirt - 19.0 EUR (L / 40 / 12)
+2026-05-31 19:47:37,877 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053929528.
+2026-05-31 19:47:37,877 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Short Chino été Ralph Lauren marron taille W36 FR46  homme F27 - 14.0 EUR (W36 | FR 46)
+2026-05-31 19:47:38,185 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053421070.
+2026-05-31 19:47:38,186 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Polo menino Ralph lauren - 5.0 EUR (7 ans / 122 cm)
+2026-05-31 19:47:38,599 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053931242.
+2026-05-31 19:47:38,599 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] blusa - 20.0 EUR (XS / 34 / 6)
+2026-05-31 19:47:38,903 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053925311.
+2026-05-31 19:47:38,904 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] White jeans Polo Ralph Lauren - 40.0 EUR (S / 36 / 8)
+2026-05-31 19:47:39,212 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053930153.
+2026-05-31 19:47:39,213 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Short Ralph Lauren preepy casual chic court blanc - US 2 T38 - 20.0 EUR (M / 38 / 10)
+2026-05-31 19:47:39,478 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053929270.
+2026-05-31 19:47:39,478 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Chemise Ralph Lauren bordeau en L - 5.0 EUR (L)
+2026-05-31 19:47:39,827 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053929386.
+2026-05-31 19:47:39,828 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Schwarzer Ralph Lauren Bleistiftrock mit Schlitz - 39.0 EUR (M / 38 / 10)
+2026-05-31 19:47:40,234 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053929463.
+2026-05-31 19:47:40,234 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Chemise Ralph Lauren vintage en L - 5.0 EUR (L)
+2026-05-31 19:47:40,541 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053929460.
+2026-05-31 19:47:40,541 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Pull over Ralph Lauren - 35.0 EUR (S / 36 / 8)
+2026-05-31 19:47:40,942 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053929340.
+2026-05-31 19:47:40,942 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Halfzip van Ralph lauren. nieuwstaat. Heren. maat XL - 69.99 EUR (XL)
+2026-05-31 19:47:41,352 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053927012.
+2026-05-31 19:47:41,353 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Cardigan Ralph Lauren - 85.0 EUR (11 ans / 146 cm)
+2026-05-31 19:47:41,669 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053470599.
+2026-05-31 19:47:41,670 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Pull léger Ralph Lauren gris foncé - 25.0 EUR (S)
+2026-05-31 19:47:42,076 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053928699.
+2026-05-31 19:47:42,076 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Camisa Ralph Lauren - 50.0 EUR (XL)
+2026-05-31 19:47:42,386 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053928332.
+2026-05-31 19:47:42,387 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] maglia ralph lauren - 25.0 EUR (S)
+2026-05-31 19:47:42,691 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053928553.
+2026-05-31 19:47:42,692 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Jogging Ralph Lauren Noir et Rouge Homme - 35.0 EUR (S)
+2026-05-31 19:47:43,112 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053928485.
+2026-05-31 19:47:43,112 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Ralph Lauren Shirt blue Sky Vintage Y2K summer sense - 22.95 EUR (L)
+2026-05-31 19:47:43,697 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9036879241.
+2026-05-31 19:47:43,698 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Ralph Lauren rood T-shirt M - 20.0 EUR (M / 38 / 10)
+2026-05-31 19:47:44,122 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053927968.
+2026-05-31 19:47:44,122 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Ralph Lauren] Maglione collo alto - 4.0 EUR (L)
+2026-05-31 19:47:44,493 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053927482.
+2026-05-31 19:47:44,493 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Polo Ralph Lauren] Vestito bimba ralph louren - 10.0 EUR (3 ans / 98 cm)
+2026-05-31 19:47:44,741 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053927332.
+2026-05-31 19:47:44,741 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Ralph Lauren': 20 new items dispatched, 0 duplicates skipped.
+2026-05-31 19:47:44,741 [INFO] VintedBot.Worker - 🔍 Scraping criteria: 'Arte' (Search Text: 'arte')
+2026-05-31 19:47:45,162 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Sizzix] Lotto 2 fustelle nuove sizzix - 18.0 EUR (N/A)
+2026-05-31 19:47:45,455 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053933738.
+2026-05-31 19:47:45,456 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Commission] L1zz44 - 15.0 EUR (N/A)
+2026-05-31 19:47:45,761 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053932168.
+2026-05-31 19:47:45,762 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Pendientes brillantes - 4.0 EUR (N/A)
+2026-05-31 19:47:46,106 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053932158.
+2026-05-31 19:47:46,106 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [N/A] Lote 2 cintas decorativas jacquard étnico y purpurina degradada 2,5cm – 5m mercería - 3.0 EUR (N/A)
+2026-05-31 19:47:46,479 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053931100.
+2026-05-31 19:47:46,480 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Marvel] (Fanart) Ilustración digital de Deadpool - 15.0 EUR (N/A)
+2026-05-31 19:47:47,297 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053928226.
+2026-05-31 19:47:47,298 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Pokémon] Trubbish IR 140/086 WHT | Inglés Blanco y Negro NM Original - 6.28 EUR (N/A)
+2026-05-31 19:47:47,607 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053927928.
+2026-05-31 19:47:47,607 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [417 - perline come da fotografia mm. 16x13] 417 - perline come da fotografia mm. 16x13 - 1.0 EUR (N/A)
+2026-05-31 19:47:48,220 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053927099.
+2026-05-31 19:47:48,221 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Shein] Stampo a forma di mela in silicone - 5.0 EUR (N/A)
+2026-05-31 19:47:48,527 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053927101.
+2026-05-31 19:47:48,528 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Aurora] Aurora 88P - 79.0 EUR (N/A)
+2026-05-31 19:47:48,810 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053926360.
+2026-05-31 19:47:48,811 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Arte] tshirt arte - 35.0 EUR (XS)
+2026-05-31 19:47:49,103 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053925534.
+2026-05-31 19:47:49,104 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [No Label] 500g Gomitoli Acrilico con decorazioni dorate - 7.99 EUR (N/A)
+2026-05-31 19:47:49,501 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053925254.
+2026-05-31 19:47:49,501 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Lo Scarabeo] Perfetti come nuovi Tarocchi Etruschi da collezione anni 90 - 22.0 EUR (N/A)
+2026-05-31 19:47:49,754 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053924824.
+2026-05-31 19:47:49,755 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Montblanc] Penna roller montblanc William sheakespeare placcato in oro 18k - 290.0 EUR (N/A)
+2026-05-31 19:47:50,094 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053923238.
+2026-05-31 19:47:50,095 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Tessuto] Tasmania in pura lana - 50.0 EUR (N/A)
+2026-05-31 19:47:50,408 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053922738.
+2026-05-31 19:47:50,409 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [buddha] Pack 10  pares de ligas Buddha - 70.0 EUR (N/A)
+2026-05-31 19:47:50,651 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053920210.
+2026-05-31 19:47:50,651 [INFO] VintedBot.Worker - ✨ NEW LISTING FOUND: [Hecho a Mano] Acuarela original chico bajo el agua - 25.0 EUR (N/A)
+2026-05-31 19:47:51,086 [INFO] VintedBot.Notifier - Successfully sent Discord notification for item 9053915796.
+2026-05-31 19:47:51,087 [INFO] VintedBot.Worker - 📊 Iteration Summary for 'Arte': 16 new items dispatched, 4 duplicates skipped.
+2026-05-31 19:47:51,088 [INFO] VintedBot.Worker - 😴 Sleeping for 70.94 seconds to break predictable behavioral tracking...

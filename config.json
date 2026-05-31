@@ -1,0 +1,71 @@
+{
+  "vinted_domain": "https://www.vinted.fr",
+  "discord_webhook_url": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+  "allowed_sizes": ["S", "M"],
+  "request_limits": {
+    "rotation_frequency_min": 25,
+    "rotation_frequency_max": 30
+  },
+  "delay_tolerances": {
+    "min_sleep_seconds": 45,
+    "max_sleep_seconds": 90
+  },
+  "search_criteria": [
+    {
+      "name": "Arte Antwerp - Sweats & Hoodies",
+      "params": {
+        "search_text": "arte antwerp sweat hoodie pull",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Arte Antwerp - Jackets & Coats",
+      "params": {
+        "search_text": "arte antwerp veste jacket",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Ralph Lauren - Zip Hoodies & Sweats",
+      "params": {
+        "search_text": "ralph lauren zip sweat capuche",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Ralph Lauren - Cable Knit Pulls",
+      "params": {
+        "search_text": "ralph lauren torsade cable knit",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Stussy - Hoodies & Sweats",
+      "params": {
+        "search_text": "stussy hoodie sweat",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Carhartt WIP - Detroit & Active Jackets",
+      "params": {
+        "search_text": "carhartt detroit active jacket veste",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    },
+    {
+      "name": "Carhartt WIP - Double Knee Pants",
+      "params": {
+        "search_text": "carhartt double knee pantalon",
+        "order": "newest_first",
+        "per_page": 20
+      }
+    }
+  ]
+}
